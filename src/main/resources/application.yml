@@ -1,0 +1,11 @@
+server:
+    port: 9000
+
+spring:
+    application:
+        name: springboot-mongodb-test-demo
+    data:
+        mongodb:
+            host: localhost
+            port: 27017
+            database: demodb

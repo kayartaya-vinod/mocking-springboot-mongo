@@ -1,0 +1,16 @@
+GET /api/persons
+Host: localhost:9000
+Accept: application/json
+
+###
+
+POST /api/persons
+Host: localhost:9000
+Content-Type: application/json
+
+{
+    "name": "Vinod",
+    "email": "vinod@vinod.co",
+    "phone": "9731424784",
+    "city": "Bangalore"
+}
